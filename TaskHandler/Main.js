@@ -39,6 +39,10 @@ async function handleUserCommand(command) {
             viewTasks();
             break;
 
+        case 'details':
+            // function to run important details
+            break;
+
         case 'update_task':
             try {
                 const tasks = await getTaskTitles();
